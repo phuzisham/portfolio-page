@@ -66,7 +66,7 @@ header h2 {
 #about p {
   color: #9498AB;
   padding: 30px;
-  font-size: 2vw;
+  font-size: 1.8vw;
   text-align: justify;
 }
 
@@ -96,4 +96,42 @@ header h2 {
   max-width: 100%;
   border-radius: 50%;
   filter: grayscale(40%);
+}
+
+#portfolio {
+  margin-top: -20px;
+  background-color: #373F5E;
+}
+
+#portRow {
+  padding: 40px;
+}
+
+#portfolio h1 {
+  text-align: center;
+  color: #9498AB;
+  padding-top: 10px;
+}
+
+#portfolio h2 {
+  margin-bottom: -10px;
+  text-align: center;
+  color: #9498AB;
+}
+
+#portfolio p {
+  padding: 20px;
+  color: #9498AB;
+  font-size: 1.8vw;
+}
+
+#portfolioImage {
+  padding: 20px;
+  //max-width: 45%;
+  border-radius: 42px;
+}
+
+#portfolioImage:hover {
+  transform: scale(1.25);
+  transition: transform 0.37s ease-in-out;
 }
