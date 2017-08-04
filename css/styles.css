@@ -297,9 +297,6 @@ footer .fa:hover {
 }
 
 @media screen and (max-width: 991px) {
-  ul.topNav {
-    background-color: #FFF;
-  }
 
   #picOfMe {
     margin-top: 50px;
@@ -326,8 +323,58 @@ footer .fa:hover {
 
 @media screen and (max-width: 775px) {
 
-  ul.topNav {
-    background-color: #0F0;
+  #about ul {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 769px) {
+
+  #picOfMe {
+    display: none;
+  }
+
+  #about ul {
+    margin-top: -5px;
+    margin-left: 33%;
+    width: 40%;
+  }
+
+  p {
+    font-size: 2.5vw;
+  }
+
+  #aboutP {
+    margin-top: 0;
+  }
+
+  #about ul h2 {
+    font-size: 2.5vw;
+  }
+
+  #about ul li {
+    font-size: 1.8vw;
+  }
+
+  #contact {
+    padding-right: 20px;
+  }
+
+}
+
+@media screen and (max-width: 675px) {
+
+  p {
+    font-size: 3vw;
+  }
+
+  #about ul h2 {
+    font-size: 3vw;
+  }
+
+  #about ul li {
+    font-size: 2vw;
   }
 
 }
