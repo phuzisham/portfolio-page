@@ -31,16 +31,16 @@
       <div id="content">
         <div id="about">
           <div class="row">
-            <div class="col-sm-8">
-              <p>I'm an aspiring developer currently learning html, css, javascript, ruby, and rails at <a target="_blank" href="https://www.epicodus.com/">Epicodus</a> and through the course work at <a target="_blank" href="https://www.freecodecamp.com/about/">Free Code Camp.</a> The challenges and opportunities that come with web development make me excited for a long road of learning and growth in the future. When I'm not sitting at my desk coding; I might be sailing, rock-climbing, or making music. Come back every now and then to see what's new in my portfolio. I'll be working hard to make sure it's worth your time.</p>
+            <div class="col-md-8">
+              <p id="aboutP">I'm an aspiring developer currently learning html, css, javascript, ruby, and rails at <a target="_blank" href="https://www.epicodus.com/">Epicodus</a> and through the course work at <a target="_blank" href="https://www.freecodecamp.com/about/">Free Code Camp.</a> The challenges and opportunities that come with web development make me excited for a long road of learning and growth in the future.</p>
             </div>
-            <div class="col-sm-4"> <!--about section image-->
+            <div class="col-md-4"> <!--about section image-->
               <img id="picOfMe" class="img-responsive" src="https://s19.postimg.org/ikn0ehwub/IMG_0033.jpg"
                 alt="Picture Of Me">
             </div>
           </div> <!--/class="row"-->
           <div class="row">
-            <div class="col-sm-3">
+            <div class="col-md-3">
               <ul>
                 <h2>Skillset</h2>
                 <li>Terminal -beginner</li>
@@ -50,7 +50,7 @@
                 <li>Ruby/Rails -novice</li>
               </ul>
             </div>
-            <div class="col-sm-9">
+            <div class="col-md-9">
               <p>When I'm not sitting at my desk coding; I might be sailing, rock-climbing, or making music. Come back every now and then to see what's new in my portfolio. I'll be working hard to make sure it's worth your time.</p>
             </div>
           </div> <!--/class="row"-->
@@ -64,13 +64,13 @@
             </div>
             <div class=col-md-7>
               <h2>Quote Generator</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiumdod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in.</p>
             </div>
           </div>
           <div id="portRow" class="row">
             <div class=col-md-7>
               <h2>Bill Watterson Tribute</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiumdod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in.</p>
             </div>
             <div class="col-md-5">
               <a target="_blank" href="https://codepen.io/phuzisham/full/vJYGwb/"><img class="img-responsive" id="portfolioImage" src="https://s19.postimg.org/i2v9id7ur/bill_Watterson.png" alt="Bill Watterson Tribute Page"></a>
@@ -83,10 +83,48 @@
             </div>
             <div class=col-md-7>
               <h2>Pong Clone</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiumdod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in.</p>
             </div>
           </div>
         </div> <!--portfolio-->
+
+        <div id="contact">
+
+          <h1>Contact</h1>
+          <h4>Contact Form:</h4>
+
+          <div class="row">
+            <form action="mailto:david.hale7@gmail.com" method="post" enctype="text/plain" class="col-md-6">
+              <div id="form">
+                <div class="form-group row">
+                  <input type="text" class="form-control col-md-10" placeholder="Name">
+                </div>
+                <div class="form-group row">
+                  <input type="text" class="form-control col-md-10" placeholder="Email Address">
+                </div>
+                <div class="form-group row">
+                  <input type="text" class="form-control col-md-10" placeholder="Phone Number">
+                </div>
+                <div class="form-group row">
+                  <textarea id="messageBox" type="text" class="form-control col-md-10" placeholder="Message"></textarea>
+                </div>
+                <input type="submit" value="Send Message">
+              </div> <!--/id="form"-->
+            </form>
+
+            <div class="col-md-5">
+              <p>Get in touch with me if you have any questions about my experience or to request a resume. You can also challenge me to a game of chess, ask for book recommendations, or just say "Hello". If filling out forms isn't your thing then click on the social media icon of your choice below. I look forward to hearing from you.</p>
+
+              <div id="mediaButtons">
+                <a target="_blank" href="https://www.linkedin.com/in/david-hale-a5756a13a/" class="fa fa-linkedin"></a>
+                <a target="_blank" href="https://github.com/phuzisham" class="fa fa-github"></a>
+                <a target="_blank" href="https://www.instagram.com/phuzisham/" class="fa fa-instagram"></a>
+                <a target="_blank" href="https://www.facebook.com/david.hale.771" class="fa fa-facebook"></a>
+                <a target="_blank" href="https://twitter.com/phuzisham" class="fa fa-twitter"></a>
+              </div>
+            </div>
+          </div> <!--/class="row"-->
+        </div> <!--/id="contact"-->
 
       </div> <!--content-->
     </div> <!--container-fluid-->

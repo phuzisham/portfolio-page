@@ -61,6 +61,11 @@ header h2 {
   padding-top: 46px;
   display: block;
   text-align: center;
+  padding-bottom: 20px;
+}
+
+#aboutP {
+  margin-top: 60px;
 }
 
 #about p {
@@ -134,4 +139,98 @@ header h2 {
 #portfolioImage:hover {
   transform: scale(1.25);
   transition: transform 0.37s ease-in-out;
+}
+
+#contact {
+  margin-top: -20px;
+  background-color: #4E5676;
+}
+
+#contact h1 {
+  color: #9498AB;
+  text-align: center;
+  padding-top: 10px;
+}
+
+#contact h4 {
+  color: #9498AB;
+  padding-left: 26px;
+}
+
+#form {
+  padding: 0px 20px 20px 40px;
+  max-width: 100%;
+}
+
+#messageBox {
+  height: 200px;
+}
+
+input[type=submit] {
+  border-color: #373F5E;
+  background-color: #222B4E;
+  color: #9498AB;
+  border-radius: 23px;
+  margin-left: -13px;
+}
+
+input[type=submit]:hover {
+  opacity: 0.7;
+  transform: scale(1.25);
+  transition: transform 0.37s ease-in-out;
+}
+
+#contact p {
+  color: #9498AB;
+  padding: 10px;
+  font-size: 1.8vw;
+  text-align: justify;
+  margin-left: 30px;
+}
+
+#mediaButtons {
+  text-align: center;
+  padding: 10px;
+}
+
+#mediaButtons a {
+  margin: 10px;
+}
+
+.fa {
+  padding: 17.4px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+  transform: scale(1.25);
+  transition: transform 0.37s ease-in-out;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+  background: #000000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #e95950;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
 }
