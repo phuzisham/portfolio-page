@@ -10,6 +10,10 @@ body {
   font-family: "Comfortaa";
 }
 
+p {
+  font-size: 1.8vw;
+}
+
 header {
   position: fixed;
   width: 100%;
@@ -71,7 +75,6 @@ header h2 {
 #about p {
   color: #9498AB;
   padding: 30px;
-  font-size: 1.8vw;
   text-align: justify;
 }
 
@@ -85,13 +88,13 @@ header h2 {
   border-radius: 42px;
   padding: 30px;
   margin-left: 40px;
-  margin-top: -100px;
+  margin-top: -80px;
 }
 
 #about ul h2 {
   margin-top: -10px;
   margin-bottom: 20px;
-  font-size: 1.7vw;
+  font-size: 1.8vw;
   text-align: center;
   color: #9498AB;
 }
@@ -111,6 +114,7 @@ header h2 {
   max-width: 100%;
   border-radius: 50%;
   filter: grayscale(40%);
+  margin-left: -20px;
 }
 
 #portfolio {
@@ -143,12 +147,11 @@ header h2 {
 #portfolio p {
   padding: 20px;
   color: #9498AB;
-  font-size: 1.8vw;
 }
 
 #portfolioImage {
+  width: 100%;
   padding: 20px;
-  //max-width: 45%;
   border-radius: 42px;
 }
 
@@ -199,7 +202,6 @@ input[type=submit]:hover {
 #contact p {
   color: #9498AB;
   padding: 10px;
-  font-size: 1.8vw;
   text-align: justify;
   margin-left: 30px;
 }
@@ -283,4 +285,49 @@ footer .fa:hover {
 
 .fa-free-code-camp {
   width: 25px;
+}
+
+
+@media screen and (max-width: 1100px) {
+
+  #about ul {
+    margin-top: -50px;
+  }
+
+}
+
+@media screen and (max-width: 991px) {
+  ul.topNav {
+    background-color: #FFF;
+  }
+
+  #picOfMe {
+    margin-top: 50px;
+    //width: 90%;
+  }
+
+  #about ul {
+    margin-top: -30px;
+  }
+
+  p {
+    font-size: 2.2vw;
+  }
+
+  #about ul h2 {
+    font-size: 2.2vw;
+  }
+
+  #about ul li {
+    font-size: 1.5vw;
+  }
+
+}
+
+@media screen and (max-width: 775px) {
+
+  ul.topNav {
+    background-color: #0F0;
+  }
+
 }
