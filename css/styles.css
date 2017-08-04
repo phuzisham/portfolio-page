@@ -96,6 +96,10 @@ header h2 {
   color: #9498AB;
 }
 
+#about ul li span {
+  color: #222B4E;
+}
+
 #picOfMe {
   padding: 20px;
   max-width: 100%;
@@ -233,4 +237,38 @@ input[type=submit]:hover {
 .fa-twitter {
   background: #55acee;
   color: white;
+}
+
+footer {
+  background-color: #222B4E;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+
+footer h1 {
+  color: #9498AB;
+  font-size: 17px;
+}
+
+footer .fa {
+  padding: 0;
+  text-align: left;
+}
+
+footer .fa:hover {
+  transform: scale(1.75);
+  transition: transform 0.37s ease-in-out;
+}
+
+.fa-html5 {
+  width: 18px;
+}
+
+.fa-css3 {
+  width: 21px;
+}
+
+.fa-free-code-camp {
+  width: 25px;
 }
