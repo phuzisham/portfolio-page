@@ -336,25 +336,16 @@ footer .fa:hover {
   }
 
   #about ul {
-    margin-top: -5px;
-    margin-left: 33%;
-    width: 40%;
+    display: none;
   }
 
   p {
     font-size: 2.5vw;
+    margin: 0;
   }
 
   #aboutP {
     margin-top: 0;
-  }
-
-  #about ul h2 {
-    font-size: 2.5vw;
-  }
-
-  #about ul li {
-    font-size: 1.8vw;
   }
 
   #contact {
