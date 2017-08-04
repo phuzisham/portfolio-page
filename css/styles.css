@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:400,700,300|Quattrocento");
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+  overflow: hidden;
+}
+
+body {
+  font-family: "Comfortaa";
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  overflow: hidden;
+  height: 46px;
+}
+
+ul.topNav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #222B4E;
+}
+
+ul.topNav li {
+  float: left;
+}
+
+ul.topNav li a {
+  display: inline-block;
+  color: #9498AB;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  transition: 0.4s;
+  font-size: 21px;
+}
+
+ul.topNav li a:hover {
+  background-color: #373F5E;
+}
+
+header h2 {
+  color: #9498AB;
+  float: right;
+  margin-right: 30px;
+  margin-top: 8px;
+}
