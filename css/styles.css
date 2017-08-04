@@ -74,6 +74,23 @@ header h2 {
   color: #222B4E;
 }
 
+#about ul {
+  display: inline-block;;
+  list-style-type:
+}
+
+#about ul h2 {
+  font-size: 1.7vw;
+  text-align: left;
+  color: #9498AB;
+}
+
+#about ul li {
+  font-size: 1.3vw;
+  text-align: left;
+  color: #9498AB;
+}
+
 #picOfMe {
   padding: 20px;
   max-width: 100%;
