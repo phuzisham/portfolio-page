@@ -50,3 +50,33 @@ header h2 {
   margin-right: 30px;
   margin-top: 8px;
 }
+
+#content {
+  z-index: 2;
+  overflow: hidden;
+}
+
+#about {
+  background-color: #4E5676;
+  padding-top: 46px;
+  display: block;
+  text-align: center;
+}
+
+#about p {
+  color: #9498AB;
+  padding: 30px;
+  font-size: 2vw;
+  text-align: justify;
+}
+
+#about p a {
+  color: #222B4E;
+}
+
+#picOfMe {
+  padding: 20px;
+  max-width: 100%;
+  border-radius: 50%;
+  filter: grayscale(40%);
+}
