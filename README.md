@@ -3,7 +3,7 @@
 #### _Created: 08.04.2017_
 #### _Last Modified: 11.21.2017_
 
-#### _Site hosted [here](https://phuzisham.github.io/portfolio-page/)._
+#### _Site hosted [here](https://phuzisham.github.io/second-portfolio/)._
 
 #### By _David Hale_
 
