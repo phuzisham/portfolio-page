@@ -1,27 +1,33 @@
-# _{Portfolio Page}_
+# Second Portfolio Page
 
-#### _{Current Version Updated}, {08/04/17}_
+#### _Created: 08.04.2017_
+#### _Last Modified: 11.21.2017_
 
-#### _{https://phuzisham.github.io/portfolio-page/}_
+#### _Site hosted [here](https://phuzisham.github.io/portfolio-page/)._
 
-#### By _**{David Hale}**_
+#### By _David Hale_
 
 ## Description
 
-_{Site that holds my portfolio, about section, and contact info.}_
+_Second portfolio page._
+
+![Screenshot](https://github.com/phuzisham/second-portfolio/blob/master/img/cap.png "Screen Capture")
+![Screenshot](https://github.com/phuzisham/second-portfolio/blob/master/img/cap.png "Screen Capture")
 
 ## Known Bugs
 
-_{Currently has responsive design issues that need to be addressed.}_
+_Currently has responsive design issues that need to be addressed._
 
 ## Support and contact details
 
-_{Contact me at david.hale7@gmail.com}_
+_If you have questions or run into any issues email me at: david.hale7@gmail.com_
 
 ## Technologies Used
 
-_{HTML5, CSS, BootStrap}_
+_HTML and CSS_
 
 ### License
 
-MIT (c) 2017 **_{David Hale}_**
+*MIT License*
+
+Copyright (c) 2017 **_David Hale_**
