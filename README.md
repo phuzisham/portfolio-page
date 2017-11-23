@@ -12,7 +12,7 @@
 _Second portfolio page._
 
 ![Screenshot](https://github.com/phuzisham/second-portfolio/blob/master/img/cap.png "Screen Capture")
-![Screenshot](https://github.com/phuzisham/second-portfolio/blob/master/img/cap.png "Screen Capture")
+![Screenshot](https://github.com/phuzisham/second-portfolio/blob/master/img/cap2.png "Screen Capture")
 
 ## Known Bugs
 
